@@ -18,9 +18,6 @@
  */
 
 #include <iconv.h>
-#ifndef ICONV_CONST
-# define ICONV_CONST
-#endif
 
 #include <limits.h>
 #include <stdlib.h>

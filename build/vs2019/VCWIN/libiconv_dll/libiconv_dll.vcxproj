@@ -86,7 +86,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win32\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL_USING_DEF;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win32\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\..\..\..\..\;.\..\..\..\..\lib;.\..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <FavorSizeOrSpeed />
@@ -111,9 +111,8 @@ copy $(OutDir)$(TargetName).pdb $(LIBRARIES_PATH)\libiconv\bin\Win32\vc16</Comma
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win64\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL_USING_DEF;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win64\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\..\..\..\..\;.\..\..\..\..\lib;.\..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <Optimization>Disabled</Optimization>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <FavorSizeOrSpeed />
       <PrecompiledHeader />
@@ -134,7 +133,7 @@ copy $(OutDir)$(TargetName).pdb $(LIBRARIES_PATH)\libiconv\bin\Win64\vc16</Comma
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win32\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL_USING_DEF;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win32\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win32\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\..\..\..\..\;.\..\..\..\..\lib;.\..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>
@@ -161,7 +160,7 @@ copy $(OutDir)$(TargetName).lib $(LIBRARIES_PATH)\libiconv\lib\Win32\vc16</Comma
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win64\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>BUILDING_LIBICONV_USING_DEF;BUILDING_DLL_USING_DEF;PIC;HAVE_CONFIG_H;ENABLE_RELOCATABLE=1;IN_LIBRARY;INSTALLPREFIX="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";INSTALLDIR="$(LIBRARIES_PATH)\libiconv\bin\Win64\vc16";NO_XMALLOC;set_relocation_prefix=libiconv_set_relocation_prefix;relocate=libiconv_relocate;LIBDIR="$(LIBRARIES_PATH)\libiconv\lib\Win64\vc16";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\..\..\..\..\;.\..\..\..\..\lib;.\..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader />
       <WarningLevel>Level3</WarningLevel>

@@ -66,6 +66,9 @@ typedef void* iconv_t;
 #define EILSEQ 
 #endif
 
+#ifndef ICONV_CONST
+# define ICONV_CONST const
+#endif
 
 #ifdef __cplusplus
 extern "C" {

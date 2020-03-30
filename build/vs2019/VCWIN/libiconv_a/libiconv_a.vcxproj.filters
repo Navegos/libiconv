@@ -15,24 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include=".\..\..\..\..\libcharset\lib\localcharset.c">
+    <ClCompile Include="..\..\..\..\lib\iconv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\..\..\..\..\lib\relocatable.c">
+    <ClCompile Include="..\..\..\..\libcharset\lib\localcharset.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include=".\..\..\..\..\lib\iconv.c">
+    <ClCompile Include="..\..\..\..\lib\relocatable.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include=".\..\..\..\..\config.h">
+    <ClInclude Include="..\..\..\..\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include=".\..\..\..\..\include\iconv.h">
+    <ClInclude Include="..\..\..\..\include\iconv.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include=".\..\..\..\..\lib\localcharset.h">
+    <ClInclude Include="..\..\..\..\lib\localcharset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\relocatable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

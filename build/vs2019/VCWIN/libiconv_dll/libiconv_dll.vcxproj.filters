@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Def Files">
+      <UniqueIdentifier>{3f7719ea-b9f9-4b6d-b465-31d6895f9704}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\lib\iconv.c">
@@ -45,11 +48,11 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="libiconv64.def">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="libiconv32.def">
-      <Filter>Source Files</Filter>
+      <Filter>Def Files</Filter>
+    </None>
+    <None Include="libiconv64.def">
+      <Filter>Def Files</Filter>
     </None>
   </ItemGroup>
 </Project>

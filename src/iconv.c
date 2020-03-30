@@ -15,9 +15,6 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.  */
 
 #include "config.h"
-#ifndef ICONV_CONST
-# define ICONV_CONST
-#endif
 
 #include <limits.h>
 #include <stddef.h>
